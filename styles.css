@@ -1,0 +1,30 @@
+body {    
+
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    height: 50px;
+    display: flex;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding-top: 6px;
+    margin: 0;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
