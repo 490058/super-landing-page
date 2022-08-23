@@ -38,8 +38,32 @@ ul {
 
 .hero {
     display: flex;
+    background-color: #1F2937;
+    height: 250px;
 }
 
+.hero-img, .hero-info  {
+    width: 500px
+}
+
+.hero-header {
+    font-weight: 800;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    color: #E5E7EB;
+}
+
+.hero-img {
+    color: #E5E7EB;
+}
 
 .info {
     display: flex;
@@ -51,6 +75,3 @@ ul {
     display: flex;
 }
 
-.hero {
-    height: 300px;
-}
