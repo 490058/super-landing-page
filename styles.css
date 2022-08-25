@@ -8,8 +8,10 @@ html {
 
 
 body {
+    
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 body > div {
@@ -19,11 +21,8 @@ body > div {
 }
 
 div > .section {
-    max-width: 1050px;
+    max-width: 900px;
     flex-grow: 1;
-    border-color: salmon;
-    border-width: 2px;
-    border-style: solid;
 } 
 
 
@@ -35,13 +34,21 @@ div > .section {
     background-color: #1F2937;
 }
 
-
-
 .header .section, .footer .section{
     height: 50px;
     display: flex;
 }
 
+
+
+
+/* HEADER */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.2s;
+}
 
 .header .section{
     justify-content: space-between;
@@ -66,16 +73,18 @@ ul {
 
 
 
+/* HERO */
 .hero .section{
     display: flex;
-    height: 400px;
+    height: 500px;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
 }
 
 .hero-img, .hero-info  {
     width: 450px;
-    height: 200px;
+    height: 220px;
 }
 
 .hero-info {
@@ -106,26 +115,25 @@ ul {
     font-weight: 600;
 }
 
-#button-hero {
-
-}
-
 .hero-img {
     color: #E5E7EB;
-    border: solid lightcyan 3px;
+    border: solid #E5E7EB 3px;
+    padding: 8px;
 }
 
 
 
 /* INFO */
 .info {
-    height: 350px;
+    height: 450px;
 }
 
 .info .section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 48px;
 }
 
 .info-header {
@@ -133,7 +141,6 @@ ul {
     font-weight: 900;
     color: #1F2937;
     text-align: center;
-    padding: 32px 0;
 }
 
 .info-content {
@@ -197,6 +204,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .contrainer-mail-list {
@@ -230,6 +238,12 @@ ul {
 
 
 /* FOOTER */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%
+    }
+
 .footer .section {
     display: flex;
     justify-content: center;
