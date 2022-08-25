@@ -66,7 +66,7 @@ ul {
     list-style: none;
     padding-top: 6px;
     margin: 0;
-    gap: 16px;
+    gap: 20px;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -182,7 +182,7 @@ ul {
 
 .quote-text {
     color: #1F2937;
-    font-size: 36px;
+    font-size: 32px;
     font-style: italic;
     font-weight: lighter;
 }
@@ -190,7 +190,7 @@ ul {
 .quote-author {
     text-align: end;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 
