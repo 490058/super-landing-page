@@ -193,13 +193,11 @@ ul {
     height: 280px;
 }
 
-
 .mail-list .section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 .contrainer-mail-list {
     max-width: 740px;
@@ -230,3 +228,14 @@ ul {
 }
 
 
+
+/* FOOTER */
+.footer .section {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-info {
+    color: white;
+    padding-top: 14px;
+}
