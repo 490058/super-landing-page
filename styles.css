@@ -159,6 +159,17 @@ ul {
 /* QUOTE */
 .quote {
     background-color: #E5E7EB;
+    height: 350px;
+}
+
+.quote .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-quote {
+    max-width: 740px;
 }
 
 .quote-text {
@@ -167,6 +178,15 @@ ul {
     font-style: italic;
     font-weight: lighter;
 }
+
+.quote-author {
+    text-align: end;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+
 
 .backg-blue {
     background-color: #3882F6;
