@@ -98,11 +98,12 @@ ul {
 .button {
     color: #E5E7EB;
     background-color: #3882F6;
-    width: 74px;
-    height: 28px;
-    padding: 5px;
+    width: 120px;
+    height: 32px;
+    padding: 7px;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 6px;
+    font-weight: 600;
 }
 
 #button-hero {
@@ -187,14 +188,45 @@ ul {
 
 
 
+/* MAIL LIST */
+.mail-list {
+    height: 280px;
+}
 
-.backg-blue {
+
+.mail-list .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contrainer-mail-list {
+    max-width: 740px;
+    flex-grow: 1;
     background-color: #3882F6;
+    height: 110px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#mail-list-cta {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#mail-list-text {
+    color: rgb(230, 229, 229);
 }
 
 #button-mail-list {
-    border-width: 2px;
+    border-width: 1.5px;
     border-style: solid;
     border-color: white;
-    display: inline-block;
+    padding: 6px;
 }
+
+
