@@ -52,7 +52,7 @@ div > .section {
 
 .header .section{
     justify-content: space-between;
-    padding-top: 8px;
+    padding-top: 10px;
 }
 
 .logo {
